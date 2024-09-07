@@ -1,0 +1,8 @@
+.env*
+
+output/
+
+main
+main.exe
+main.o
+main.s
