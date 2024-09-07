@@ -7,6 +7,8 @@ We do a first fetch on the /commit endpoint and another on the /events endpoint.
 # Usefulness:
 During a security audit or a pentest, it can be interesting to examine the commits deleted from an organization's repository to find sensitive information.
 
+![img](meme-leak-password.png)
+
 **⚠️ Warning: This tool is reserved for professionals, I am not responsible if you use it illegally.**
 
 # Features:
