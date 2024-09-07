@@ -2,7 +2,7 @@
 This OSINT tool was created following the release of the following [article](https://trufflesecurity.com/blog/anyone-can-access-deleted-and-private-repo-data-github) and the rump of **Frederick Kaludis** during **Winerump 2024**, it allows you to find all the commits deleted from a GitHub repository using the API.
 
 # Operation:
-We do a first fetch on the /commit endpoint and another on the /events endpoint. We then compare the two responses by looking for events of type "PushEvent." If the event is not in the commits, then it is a deleted commit.
+We do a first fetch on the /commits endpoint and another on the /events endpoint. We then compare the two responses by looking for events of type "PushEvent." If the event is not in the commits, then it is a deleted commit.
 
 # Usefulness:
 During a security audit or a pentest, it can be interesting to examine the commits deleted from an organization's repository to find sensitive information.
